@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Roboto:wght@300;400&display=swap');
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+}
+
+body, html, input,
+textarea {
+   background-color: #a19c99;
+   font-family: 'Roboto', sans-serif;
+   scroll-behavior: smooth;
+}
+
+.header {
+   background-color: #182c61;
+   color: #f5f5dc;
+   font-family: 'Bungee', cursive;
+   padding: 16px 0;
+}
+
+.navLink {
+   color: #f5f5dc;
+   font-size: 20px;
+   margin: 16px;
+   text-decoration: none;
+}
+
+nav li {
+   display: inline;
+}
+
+.itemsList {
+   list-style: none;
+}
+
+.containerMain {
+   margin: 0 auto;
+   max-width: 1200px;
+   width: 100%;
+}
+
+.containerMain h1 {
+   font-size: 45px;
+   font-weight: normal;
+}
+
+header .containerMain,
+section .containerMain {
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+}
+
+.listRegisteredTrademark img {
+   margin-right: 8px;
+   margin-top: 10px;
+   height: 27px;
+}
+
+.listRegisteredTrademark li {
+   display: inline;
+}
+
+section .containerMain {
+   align-items: flex-start;
+}
+
+.theSectionOne {
+   color: #182c61;
+   padding: 24px 0;
+}
+
+.titleTheSection {
+   font-family: 'Bungee', cursive;
+   font-size: 27px;
+   font-weight: normal;
+   margin-bottom: 16px;
+}
+
+.paragraphsSection {
+   font-size: 17px;
+   margin-bottom: 8px;
+   text-align: justify;
+}
+
+.storeFrontIamge {
+   margin-right: 32px;
+}
+
+#contactSection .containerMain {
+   display: block;
+}
+
+.subSections {
+   display: flex;
+   justify-content: space-between;
+   margin-right: 40px;
+   margin-bottom: 10px;
+}
+
+.titleTwo,
+.titleThree {
+   font-family: 'Bungee', cursive;
+   font-weight: normal;
+}
+
+form button,
+form input,
+form textarea {
+   background-color: #f5f5dc;
+   border-color: #182c61;
+   border-radius: 5px 5px;
+   color: #2c4eaa;
+   display: block;
+   margin-bottom: 8px;
+   padding: 8px;
+   width: 320px;
+}
+
+form fieldset {
+   border: none;
+   margin-top: 15px;
+}
+
+form label {
+   font-weight: bold;
+}
+
+form textarea {
+   height: 180px;
+   resize: none;
+}
+
+form button {
+   background-color: #182c61;
+   border: none;
+   color: #f5f5dc;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+form button:hover {
+   background-color: #2c4eaa;
+   color: #3f1c03;
+   cursor: pointer;
+   text-decoration: underline;
+}
+
+input:focus,
+textarea:focus {
+   outline-color: #2c4eaa;
+}
+
+.socialMediaLinks img {
+   height: 27px;
+}
+
+.socialMediaLinks li,
+.socialMediaLinks a {
+   display: inline;
+   margin-right: 8px;
+   margin-top: 15px;
+   text-decoration: none;
+}
+
+.titleThree {
+   margin-bottom: 3px;
+}
+
+.sectionFooter {
+   align-items: center;
+   background-color: #182c61;
+   color: #f5f5dc;
+   font-weight: bold;
+   font-size: 17px;
+   padding: 15px 0;
+   position: sticky;
+   text-decoration: underline;
+   text-align: center;
+   z-index: -1px;
+}
+
+
+.topPage {
+   background-color: #2c4eaa;
+   border: solid 1px #a19c99;
+   border-radius: 5px;
+   bottom: 60px;
+   padding: 15px;
+   position: fixed;
+   right: 16px;
+}
+
+.topPage a {
+   color: #f5f5dc;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
